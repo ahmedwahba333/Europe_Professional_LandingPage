@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- start header section -->
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="myLineLeft"></div>
+            <div class="myLineRight"></div>
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly align-items-center w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catecorise</a>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img class="mainImg" src="./assets/imgs/Images/Logo.png"
+                                    alt=""></a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Trems</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <p>Get what you deserve</p>
+    </header>
+
+
+    <!-- end header section -->
+
+
+    <!-- start discover section -->
+
+    <div class="discover-sec">
+        <div class="container d-flex align-items-end justify-content-evenly flex-wrap">
+            <div class="d-flex flex-wrap justify-content-evenly align-items-center">
+                <!-- <div class="col-6"> -->
+                <div class="pCourse row text-align-center">
+                    <div class="container px-5">
+                        <div class="row py-2">
+                            <p id="title">Try me</p>
+                        </div>
+
+                        <div class="row align-items-center menus">
+                            <!-- Main btn -->
+                            <div class="col-sm-12 col-md-12 col-lg-2 me-5 ms-4" id="btn-large">
+                                <div class="btn">
+                                    <div id="btn" class="position-relative">
+                                        <div class="circle0"></div>
+                                        <button class="circle position-absolute" onclick="headingNoneFun()">
+                                            <p class="pp">pCourse</p>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="row text-center resetBTNClass" id="resetBTN">
+                                    <a href="index.html#pCourse" id="reset" onclick="reset()">Reset</a>
+                                </div>
+                            </div>
+
+                            <!-- Menus -->
+                            <div id="city" class="col-sm-12 col-md-3 col-lg-2">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6" id="city__col1"></div>
+                                    <div class="col-sm-12 col-md-6" id="city__col2"></div>
+                                </div>
+                            </div>
+
+                            <div id="specialty" class="col-sm-12 col-md-3 col-lg-2">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6" id="specialty__col1"></div>
+                                    <div class="col-sm-12 col-md-6" id="specialty__col2"></div>
+                                </div>
+                            </div>
+
+                            <div id="scope" class="col-sm-12 col-md-3 col-lg-2">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6" id="scope__col1"></div>
+                                    <div class="col-sm-12 col-md-6" id="scope__col2"></div>
+                                </div>
+                            </div>
+
+                            <div id="date" class="col-sm-12 col-md-3 col-lg-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+            <div class="discoverHeading" id="discoverHeadingID">
+
+                <p>Discover the <span> smart tool </span> that will guide you to <span> your next Level</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- end discover section -->
+
+    <div class="mainLine justify-content-center d-flex mt-5 mb-5">
+        <img src="./assets/imgs/Images/Line.png" width="40%" alt="">
+    </div>
+
+
+
+
+
+
+    <!-- start Specialize section -->
+
+
+    <section class="Specialize-sec">
+        <h1>Choose your Specialize</h1>
+        <div class="Specialize-sec-con d-flex flex-wrap justify-content-between container-fluid">
+            <!-- <div class="row"> -->
+            <div class="Specialize-sec-left d-flex flex-column justify-content-evenly">
+                <p>Europe Professional Training is a premier training center <br>
+                    provides top-quality courses in several
+                    cities
+                    in Europe. <br>
+                    - links career path with training paths. <br>
+                    - Offers a wide range of courses in various
+                    fields. <br>
+                    - Is known for providing the best training in Europe, with expert <br>
+                    instructors and
+                    state-of-the-art
+                    facilities.</p>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/imgs/Images/Girl.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/imgs/Images/Girl.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/imgs/Images/Girl.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <!-- <i class="carousel-control-prev-icon" aria-hidden="true"></i> -->
+                        <i class="fa-solid fa-chevron-left arrow" aria-hidden="true"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                        <i class="fa-solid fa-chevron-right arrow" aria-hidden="true"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="Specialize-sec-right">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/11.png" alt="" srcset=""></figure>
+                            <p>Finance & Accounting</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/12.png" alt="" srcset=""></figure>
+                            <p>IT & Data</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/09.png" alt="" srcset=""></figure>
+                            <p>Strategic Planning</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/08.png" alt="" srcset=""></figure>
+                            <p>Secretarial</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/01.png" alt="" srcset=""></figure>
+                            <p>Management & leadership</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/10.png" alt="" srcset=""></figure>
+                            <p>Admin & Training</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/07.png" alt="" srcset=""></figure>
+                            <p>Security & Political</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/06.png" alt="" srcset=""></figure>
+                            <p>Purchases & Supplies</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/02.png" alt="" srcset=""></figure>
+                            <p>Audit & Risk</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/03.png" alt="" srcset=""></figure>
+                            <p>HR</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/04.png" alt="" srcset=""></figure>
+                            <p>Corporate Communications</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                        <div class=" specializeBox">
+                            <figure><img src="./assets/imgs/Icons/05.png" alt="" srcset=""></figure>
+                            <p>Contracts & Legislation</p>
+                        </div>
+                        <!-- col-lg-3 col-md-4 col-sm-6 -->
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </section>
+
+    <!-- end Specialize section -->
+
+
+    <div class="mainLine justify-content-center d-flex mt-5 mb-5">
+        <img src="./assets/imgs/Images/Line.png" width="40%" alt="">
+    </div>
+
+
+
+
+    <div class="cities text-center mt-5 mb-5">
+        <div class="container-fluid">
+
+
+
+            <h2 class="font mb-2">Choose you next course destination</h2>
+            <div class="row">
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+                        <div class="city" id="main-color">
+                            <p>London</p>
+                            <span>110 courses</span>
+                        </div>
+
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/London.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+                        <div class="city">
+                            <p>Paris</p>
+                            <span>90 courses</span>
+                        </div>
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Paris.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+                        <div class="city">
+                            <p>Geneva</p>
+                            <span>93 courses</span>
+                        </div>
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Geneva.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+                        <div class="city" id="costum-color">
+                            <p>Casablanca</p>
+                            <span>90 courses</span>
+                        </div>
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Casablanca.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Bercilona.jpg" alt="">
+                        </div>
+                        <div class="city" id="costum-color">
+                            <p>Bercilona</p>
+                            <span>104 courses</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Amesterdam.jpg" alt="">
+                        </div>
+                        <div class="city" id="main-color">
+                            <p>Amesterdam</p>
+                            <span>90 courses</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+
+                        <div class="city-img" id="main-color">
+                            <img src="./assets/imgs/images/Istanbul.jpg" alt="">
+                        </div>
+                        <div class="city">
+                            <p>Istanbul</p>
+                            <span>97 courses</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Tunis.jpg" alt="">
+                        </div>
+                        <div class="city">
+                            <p>Tunis</p>
+                            <span>88 courses</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+                        <div class="city" id="main-color">
+                            <p>Madrid</p>
+                            <span>103 courses</span>
+                        </div>
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Madrid.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+                        <div class="city">
+                            <p>Vienna</p>
+                            <span>87 courses</span>
+                        </div>
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Vienna.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+                        <div class="city">
+                            <p>Roma</p>
+                            <span>93 courses</span>
+                        </div>
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Roma.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-4 p-1">
+                    <div class="info">
+                        <div class="city" id="costum-color">
+                            <p>Athens</p>
+                            <span>89 courses</span>
+                        </div>
+                        <div class="city-img">
+                            <img src="./assets/imgs/images/Athens.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="mainLine justify-content-center d-flex mt-5 mb-5">
+        <img src="./assets/imgs/Images/Line.png" width="40%" alt="">
+    </div>
+
+
+
+    <!-- start video section  -->
+
+    <div class="video-section mt-5 text-center">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 ms-auto">
+                    <div class="border-content">
+
+
+                        <div class="content">
+                            <h4>Link job cometencies to training paths </h4>
+                            <p>through our specialized programme the first of its kind in the world</p>
+
+                            <div class="rate text-start">
+
+                                <span class="icons">
+                                    <span>5</span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <div class="review">
+                                        <h5>105 reviews</h5>
+                                    </div>
+
+                                </span>
+
+                                <span><button class="btn rounded-pill  ">Learn How</button></span>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+
+                    <iframe width="90%" height="350" src="https://www.youtube.com/embed/3zrSoHgAAWo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- /* end video section */ -->
+
+
+
+
+
+
+    <div class="mainLine justify-content-center d-flex mt-5 mb-5">
+        <img src="./assets/imgs/Images/Line.png" width="40%" alt="">
+    </div>
+
+
+    <!-- start trainers section -->
+
+
+    <section class="trainers d-flex flex-wrap justify-content-between">
+        <div class="trainersLeft d-flex justify-content-around align-items-center">
+            <figure class="z-1 img-girl-trainers"><img src="./assets/imgs/Images/girl2-removebg-preview.png" height="650px" alt=""
+                    srcset="">
+            </figure>
+            <div class="trainersLeftSecondary z-1 d-flex flex-column h-100 justify-content-evenly">
+                <div class="trainerLine"></div>
+                <p class="paragtrainersLeftSecondary">Professional courses <br> provided by</p>
+                <h1 class="fw-bolder">Professional Trainers</h1>
+                <div class="drExp fw-bolder d-flex justify-content-around">
+                    <p class="drExpParag1">Dr Lara Hampton</p>
+                    <div class="drExpLine"></div>
+                    <p class="drExpParag2">16 years experienced</p>
+                </div>
+                <p class="drExpParag3">PhD in economics, supervising scientific <br> research,
+                    she has provided courses in <br> more than 20 countries
+                    around the <br> world</p>
+                <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <img src="./assets/imgs/Images/Trainiers02.jpg" class="myImgCars" alt="" srcset="">
+                            </div>
+                            <div class="owl-item">
+                                <img src="./assets/imgs/Images/Trainiers03.jpg" class="myImgCars" alt="" srcset="">
+                            </div>
+                            <div class="owl-item">
+                                <img src="./assets/imgs/Images/Trainiers04.jpg" class="myImgCars" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="trainersRight d-flex flex-column align-items-center justify-content-around">
+            <p class="paragtrainersRight">Check your Certificate <br> Information</p>
+            <div class="input-group">
+                <input type="search" class="btnSearchPrim btnSearchPrimLabel" placeholder="Certificate Reference Number"
+                    name="search">
+                <button type="button" class="btn btnSearch btnSearchPrim"><i class="fa-solid fa-search"></i></button>
+            </div>
+            <figure class="figuretrainersRight">
+                <img src="./assets/imgs/Images/Certificate.jpg" height="250px" width="300px" alt="" srcset="">
+            </figure>
+        </div>
+    </section>
+
+
+    <!-- end trainers section -->
+
+
+
+    <div class="mainLine justify-content-center d-flex mt-5 mb-5">
+        <img src="./assets/imgs/Images/Line.png" width="40%" alt="">
+    </div>
+
+
+
+
+    <!-- start agency -->
+    <div class="agency">
+        <div class="container-fluid">
+            <div class="agency__container h-sm-50">
+                <div class="row">
+                    <div
+                        class="col-sm-12 col-md-5 agency__details d-flex justify-content-center flex-column align-items-center mt-5">
+                        <p>More than 100<br>
+                            ministries, agencieM<br>
+                            and organizations
+                        </p>
+                        <h5 class="trust">TRUST US</h5>
+                    </div>
+
+                    <div class="col-sm-12 col-md-7 text-sm-center">
+                        <img src="./assets/imgs/Images/Layer 1-1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end agency -->
+
+
+
+
+    <div class="mainLine justify-content-center d-flex mt-5 mb-5">
+        <img src="./assets/imgs/Images/Line.png" width="40%" alt="">
+    </div>
+
+
+
+
+
+
+    <!-- start popular courses -->
+    <div class="popular">
+        <div class="container-fluid">
+            <div class="title text-center ">
+                <h3 class="font mb-2">Pick up one of the most popular courses</h3>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-auto position-relative popular__content">
+                    <img src="./assets/imgs/images/Course01.jpg" alt="" class="img-fluid">
+                    <img src="./assets/imgs/images/Layer 22.png" alt="" class="position-absolute overlay">
+                    <div class="position-absolute popular__caption ms-auto">
+                        <p>Safety process in oil companies</p>
+                    </div>
+                </div>
+                <div class="col-auto position-relative popular__content">
+                    <img src="./assets/imgs/images/Course02.jpg" alt="" class="img-fluid">
+                    <img src="./assets/imgs/images/Layer 22.png" alt="" class="position-absolute overlay">
+                    <div class="position-absolute popular__caption ms-auto">
+                        <p>HR leadership in formal companies</p>
+                    </div>
+                </div>
+                <div class="col-auto position-relative popular__content">
+                    <img src="./assets/imgs/images/Course03.jpg" alt="" class="img-fluid">
+                    <img src="./assets/imgs/images/Layer 22.png" alt="" class="position-absolute overlay">
+                    <div class="position-absolute popular__caption ms-auto">
+                        <p>Management of risk for managers</p>
+                    </div>
+                </div>
+                <div class="col-auto position-relative popular__content">
+                    <img src="./assets/imgs/images/Course04.jpg" alt="" class="img-fluid">
+                    <img src="./assets/imgs/images/Layer 22.png" alt="" class="position-absolute overlay">
+                    <div class="position-absolute popular__caption ms-auto">
+                        <p>Media management for artifisal</p>
+                    </div>
+                </div>
+                <div class="col-auto position-relative popular__content">
+                    <img src="./assets/imgs/images/Course05.jpg" alt="" class="img-fluid">
+                    <img src="./assets/imgs/images/Layer 22.png" alt="" class="position-absolute overlay">
+                    <div class="position-absolute popular__caption ms-auto">
+                        <p>Crises management for oil companies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end popular courses -->
+
+
+
+
+
+
+
+    <div class="mainLine justify-content-center d-flex mt-5 mb-5">
+        <img src="./assets/imgs/Images/Line.png" width="40%" alt="">
+    </div>
+
+
+
+
+
+    <!-- start articles -->
+    <div class="articles ">
+        <div class="container-fluid  ">
+            <h2 class="font mb-2 text-center">Specialized Articles</h2>
+
+            <div class="row ">
+
+                <div class="col-lg-4 col-md-6 col-sm-12   p-4  ">
+                    <div class="articals d-flex mb-1 ">
+                        <span class="artical-img mb-4">
+                            <img src="./assets/imgs/images/Articles.jpg" alt="">
+                        </span>
+                        <span class="artical-info">
+                            <p>What is an administration <br> order - Citizens</p>
+                        </span>
+                    </div>
+                    <p class=" text ">An administration order (AO) is a formal and legally-binding agreement brtween you
+                        and your creditors to pay back your debts ...</p>
+
+
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12    p-4">
+                    <div class="articals d-flex mb-1">
+                        <span class="artical-img mb-4">
+                            <img src="./assets/imgs/images/Articles.jpg" alt="">
+                        </span>
+                        <span class="artical-info">
+                            <p>What is an administration <br> order - Citizens</p>
+                        </span>
+                    </div>
+                    <p class=" text ">An administration order (AO) is a formal and legally-binding agreement brtween you
+                        and your creditors to pay back your debts ...</p>
+
+
+                </div>
+
+
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12     p-4">
+                    <div class="articals d-flex mb-1 ">
+                        <span class="artical-img mb-4">
+                            <img src="./assets/imgs/images/Articles.jpg" alt="">
+                        </span>
+                        <span class="artical-info">
+                            <p>What is an administration <br> order - Citizens</p>
+                        </span>
+                    </div>
+                    <p class=" text ">An administration order (AO) is a formal and legally-binding agreement brtween you
+                        and your creditors to pay back your debts ...</p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end articls -->
+
+
+
+    <!-- start footer -->
+
+    <div class="endsection ">
+        <div class="container-fluid">
+            <div class="row p-4 footer-row  ">
+                <div class="col-lg-4 col-md-3 col-md-6">
+                    <div class="footer-logo mb-5 ">
+                        <img src="./assets/imgs/images/footer.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-3 col-md-6 ps-5">
+                    <h3 class="title-footer">Links</h3>
+
+                    <ul class="list-unstyled ">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Terms</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Our Goals</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-3 col-md-6">
+                    <h3 class="title-footer">Find Us</h3>
+                    <div class="locate mt-4 mb-3 d-flex ">
+                        <i class="fa-solid fa-location-dot me-3 mt-2 "></i>
+                        <p class="location"> London Academy - Landnark office <br> Oxford Street 2 Portman St, WIH 6DU</p>
+
+                    </div>
+
+                    <div class="whatsup mb-4 d-flex">
+                        <div class="img-whats me-2" style="width: 22px; height: 22px;">
+                         <img src="./assets/imgs/images/whatsup.png" alt="" >    
+                        </div>
+                       
+                        <span class="location mt-1">00447737137773</span>
+
+                    </div>
+
+
+                    <div class="email">
+                        <i class="fa-regular fa-envelope me-3"></i>
+                        <span class="location">info@exptcenter.com</span>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
